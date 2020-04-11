@@ -1,0 +1,130 @@
+{
+  "principal": {
+    "nombre":"Andres Camacho",
+    "ocupacion":"Frontend Developer",
+    "descripcion":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "imagen":"fotoperfil.jpg",
+    "biografia":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "mensajecontacto":"Here is where you should write your message to readers to have them get in contact with you.",
+    "correo": "andcamachoa@gmail.com",
+    "telefono": "6079-8387",
+    "direccion":{
+      "calle":"Plazoleta",
+      "ciudad":"Desamparados",
+      "provincia":"San Jose",
+      "codigozip": "10305"
+    },
+    "resumedownload":"http://timbakerdev.com",
+    "redes":[
+      {
+        "nombre":"facebook",
+        "url":"http://facebook.com/andcamachoa",
+        "className":"fa fa-facebook"
+      },
+      {
+        "nombre":"twitter",
+        "url":"http://twitter.com/andcamachoa",
+        "className":"fa fa-twitter"
+      },
+     
+      {
+        "nombre":"linkedin",
+        "url":"https://www.linkedin.com/in/andres-camacho-aguilar-8a9832138/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "nombre":"instagram",
+        "url":"http://instagram.com/andcama07",
+        "className":"fa fa-instagram"
+      },
+      {
+        "nombre":"github",
+        "url":"http://github.com/andcama",
+        "className":"fa fa-github"
+      },
+      {
+        "nombre":"skype",
+        "url":"http://skype.com/andcamachoa_1",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "curriculum":{
+    "resumendehabilidades":"",
+    "educacion":[
+      {
+        "universidad":"Universidad Americana",
+        "grado":"Ingenieria en Sistemas",
+        "graduado":"Febrero 2019",
+        "descripcion":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+      
+    ],
+    "trabajo":[
+      {
+        "compañia":"Nemesis Software and Systems",
+        "titulo":"Desarrollador Frontend ",
+        "años":"Septiembre 2019 - Present",
+        "descripcion":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "compañia":"Super Cool Studio",
+        "titulo":"Junior bug fixer",
+        "años":"March 2007 - February 2010",
+        "descripcion":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "habilidades":[
+      {
+        "nombre":"Git",
+        "nivel":"60%"
+      },
+      {
+        "nombre":"Illustrator",
+        "nivel":"55%"
+      },
+      {
+        "nombre":"ReactJs",
+        "nivel":"50%"
+      },
+      {
+        "nombre":"CSS",
+        "nivel":"90%"
+      },
+      {
+        "nombre":"HTML5",
+        "nivel":"80%"
+      },
+      {
+        "nombre":"VueJs",
+        "nivel":"50%"
+      },
+      {
+        "nombre":"MongoDB",
+        "nivel":"80%"
+      }
+    ]
+  },
+  "portafolio":{
+    "proyectos": [
+      {
+        "titulo":"Portafolio",
+        "categoria":"My Travel Blog for my post-university travels",
+        "imagen":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }      
+    ]
+  },
+  "testimonios":{
+    "testimonios":[
+      {
+        "texto":"Un hombre que se atreve a perder una hora no ha descubierto el valor de la vida",
+        "usuario":"Charles Darwin (1809 – 1882)"
+      },
+      {
+        "texto":"Dos cosas son infinitas: el universo y la estupidez humana. Y no estoy seguro sobre la primera",
+        "usuario":"Albert Einstein (1879 – 1955)"
+      }
+    ]
+  }
+}
