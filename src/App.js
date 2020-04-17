@@ -24,7 +24,7 @@ class App extends Component {
 
   }
 
-  getResumeData(){
+  obtenerDatos(){
     $.ajax({
       url:'/Datos.json',
       dataType:'json',
@@ -40,7 +40,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.getResumeData();
+    this.obtenerDatos();
   }
 
   render() {

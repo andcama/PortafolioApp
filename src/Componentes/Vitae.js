@@ -27,7 +27,7 @@ class Vitae extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Educacion</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -43,7 +43,7 @@ class Vitae extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Trabajo</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -56,7 +56,7 @@ class Vitae extends Component {
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Habilidades</span></h1>
          </div>
 
          <div className="nine columns main-col">

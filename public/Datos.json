@@ -2,10 +2,10 @@
   "principal": {
     "nombre":"Andres Camacho",
     "ocupacion":"Frontend Developer",
-    "descripcion":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "descripcion":"",
     "imagen":"fotoperfil.jpg",
-    "biografia":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "mensajecontacto":"Here is where you should write your message to readers to have them get in contact with you.",
+    "biografia":"",
+    "mensajecontacto":"",
     "correo": "andcamachoa@gmail.com",
     "telefono": "6079-8387",
     "direccion":{
@@ -14,7 +14,7 @@
       "provincia":"San Jose",
       "codigozip": "10305"
     },
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://cvonline.me/@andcamachoa95",
     "redes":[
       {
         "nombre":"facebook",
@@ -56,22 +56,22 @@
         "universidad":"Universidad Americana",
         "grado":"Ingenieria en Sistemas",
         "graduado":"Febrero 2019",
-        "descripcion":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "descripcion":"Fueron 4 años de aprendizaje continuo donde me forme personal como profesionalmente para ingresar al mercado laboral y demostrar mis habilidades"
       }
       
     ],
     "trabajo":[
       {
         "compañia":"Nemesis Software and Systems",
-        "titulo":"Desarrollador Frontend ",
+        "titulo":"Desarrollador Frontend",
         "años":"Septiembre 2019 - Present",
-        "descripcion":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "descripcion":"Implementacion de nuevas funcionalidades en el sitio de Racing para DGS,ademas de trabajar con el Traders Site y su implementacion con el servicio construido con Go lang"
       },
       {
-        "compañia":"Super Cool Studio",
-        "titulo":"Junior bug fixer",
-        "años":"March 2007 - February 2010",
-        "descripcion":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "compañia":"AcePerHead",
+        "titulo":"Desarrollador Junior",
+        "años":"Abril 2019 - Julio 2019",
+        "descripcion":"Desarrolle módulos de interfaz web de un DGS-Manager"
       }
     ],
     "habilidades":[
@@ -80,11 +80,11 @@
         "nivel":"60%"
       },
       {
-        "nombre":"Illustrator",
-        "nivel":"55%"
+        "nombre":"ReactJS",
+        "nivel":"60%"
       },
       {
-        "nombre":"ReactJs",
+        "nombre":"C#",
         "nivel":"50%"
       },
       {
@@ -92,15 +92,15 @@
         "nivel":"90%"
       },
       {
-        "nombre":"HTML5",
+        "nombre":"HTML",
         "nivel":"80%"
       },
       {
-        "nombre":"VueJs",
+        "nombre":"SQL",
         "nivel":"50%"
       },
       {
-        "nombre":"MongoDB",
+        "nombre":"JS",
         "nivel":"80%"
       }
     ]
@@ -109,9 +109,9 @@
     "proyectos": [
       {
         "titulo":"Portafolio",
-        "categoria":"My Travel Blog for my post-university travels",
-        "imagen":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "categoria":"Site Personal",
+        "imagen":"screenshot.PNG",
+        "url":"http://localhost:3000/"
       }      
     ]
   },
