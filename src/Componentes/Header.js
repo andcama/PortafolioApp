@@ -1,4 +1,12 @@
 import React, { Component } from "react";
+import {
+      Link,Redirect
+} from "react-router-dom";
+import AcercaDe from "./AcercaDe";
+import Vitae from "./Vitae";
+import Portafolio from "./Portafolio";
+import Testimonio from "./Testimonio";
+import Contacto from "./Contacto";
 
 class Header extends Component {
   render() {
@@ -19,6 +27,8 @@ class Header extends Component {
     }
 
     return (
+      
+      <div>
       <header id="home">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -29,40 +39,40 @@ class Header extends Component {
           </a>
 
           <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
+            <li>
+              <Link to="/"  >
                 Inicio
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="smoothscroll" href="#about">
+              <Link to="/acerca"   >
                 Acerca
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="smoothscroll" href="#resume">
+              <Link  to="/vitae"  >
                 Vitae
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <Link  to="/proyectos"  >
                 Proyectos
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="smoothscroll" href="#testimonials">
+              <Link  to="/frases"   >
                 Frases
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="smoothscroll" href="#contact">
+              <Link  to="/contacto"  >
                 Contacto
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
 
-        <div className="row banner">
+         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">Mi nombre es {nombre}.</h1>
             <h3>
@@ -72,14 +82,16 @@ class Header extends Component {
             <hr />
             <ul className="social">{redes}</ul>
           </div>
-        </div>
+        </div> 
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#footer">
             <i className="icon-down-circle"></i>
           </a>
         </p>
-      </header>
+      </header>       
+      </div>     
+    
     );
   }
 }
