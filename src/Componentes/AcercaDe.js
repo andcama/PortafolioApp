@@ -43,7 +43,7 @@ class AcercaDe extends Component {
                   <br />
                   <span>{telefono}</span>
                   <br />
-                  <span>{correo}</span>
+                  <span><a href="mailto:andcamachoa@gmail.com">andcamachoa@gmail.com</a></span>
                 </p>
               </div>
               <div className="columns download">

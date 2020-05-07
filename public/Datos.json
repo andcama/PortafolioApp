@@ -4,7 +4,7 @@
     "ocupacion":"Frontend Developer",
     "descripcion":"",
     "imagen":"fotoperfil.jpg",
-    "biografia":"",
+    "biografia":"Ingeniero de sistemas especializado en desarrollo web,con buena disposicion para ayudar y crear soluciones con una interfaz moderna y fresca. ",
     "mensajecontacto":"",
     "correo": "andcamachoa@gmail.com",
     "telefono": "6079-8387",
@@ -29,7 +29,7 @@
      
       {
         "nombre":"linkedin",
-        "url":"https://www.linkedin.com/in/andres-camacho-aguilar-8a9832138/",
+        "url":"https://www.linkedin.com/in/andcamacr/",
         "className":"fa fa-linkedin"
       },
       {
@@ -44,7 +44,7 @@
       },
       {
         "nombre":"skype",
-        "url":"http://skype.com/andcamachoa_1",
+        "url":"http://skype.com/",
         "className":"fa fa-skype"
       }
     ]

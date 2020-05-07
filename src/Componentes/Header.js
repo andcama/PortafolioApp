@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import {
-      Link,Redirect
+      Redirect
 } from "react-router-dom";
-import AcercaDe from "./AcercaDe";
-import Vitae from "./Vitae";
-import Portafolio from "./Portafolio";
-import Testimonio from "./Testimonio";
-import Contacto from "./Contacto";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 class Header extends Component {
   render() {
@@ -38,34 +35,34 @@ class Header extends Component {
             Hide navigation
           </a>
 
-          <ul id="nav" className="nav">
+          <ul id="nav" className="nav" >
             <li>
               <Link to="/"  >
                 Inicio
               </Link>
             </li>
             <li>
-              <Link to="/acerca"   >
+              <Link smooth to="/acerca#about">
                 Acerca
               </Link>
             </li>
             <li>
-              <Link  to="/vitae"  >
+              <Link  smooth to="/vitae#resume"  >
                 Vitae
               </Link>
             </li>
             <li>
-              <Link  to="/proyectos"  >
+              <Link  smooth to="/proyectos#portfolio"  >
                 Proyectos
               </Link>
             </li>
             <li>
-              <Link  to="/frases"   >
+              <Link  smooth to="/frases#testimonials"  >
                 Frases
               </Link>
             </li>
             <li>
-              <Link  to="/contacto"  >
+              <Link  smooth to="/contacto#contact"  >
                 Contacto
               </Link>
             </li>
