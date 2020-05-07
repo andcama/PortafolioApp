@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
-import "./App.css";
 import Header from "./Componentes/Header";
 import Footer from "./Componentes/Footer";
 import AcercaDe from "./Componentes/AcercaDe";
